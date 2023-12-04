@@ -1,4 +1,4 @@
-import DashboardProfileSettingsTab from "@/app/dashboard/DashboardProfileSettingsTab";
+import DashboardProfileSettingsTab from "@/app/app/dashboard/DashboardProfileSettingsTab";
 
 export default function ProfilePage() {
   return (

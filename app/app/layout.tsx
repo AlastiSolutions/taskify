@@ -1,4 +1,4 @@
-import DashboardSidebar from "@/app/dashboard/DashboardSidebar";
+import DashboardSidebar from "@/app/app/dashboard/DashboardSidebar";
 
 type DashboardLayoutProps = {
   children: React.ReactNode;

@@ -46,7 +46,7 @@ export default function Navbar() {
             <NavbarTab title="About" link="/about" />
             <NavbarTab title="Pricing" link="/pricing" />
             <NavbarTab title="Contact" link="/contact" />
-            <NavbarTab title="Dashboard" link="/dashboard" />
+            <NavbarTab title="Dashboard" link="/app" />
           </ul>
         </div>
 
@@ -58,7 +58,7 @@ export default function Navbar() {
               <NavbarTab title="About" link="/about" />
               <NavbarTab title="Pricing" link="/pricing" />
               <NavbarTab title="Contact" link="/contact" />
-              <NavbarTab title="Dashboard" link="/dashboard" />
+              <NavbarTab title="Dashboard" link="/app" />
             </ul>
           </div>
         )}

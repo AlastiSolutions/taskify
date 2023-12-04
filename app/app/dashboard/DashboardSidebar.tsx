@@ -38,7 +38,7 @@ export default function DashboardSidebar() {
       <nav>
         <ul>
           <DashboardSidebarTab
-            link="/dashboard"
+            link="/app"
             title="Dashboard"
             emoji="🏠"
             type={SidebarTabTypes.Dashboard}
@@ -46,7 +46,7 @@ export default function DashboardSidebar() {
             onClick={() => handleSidebarTabClick(SidebarTabTypes.Dashboard)}
           />
           <DashboardSidebarTab
-            link="/dashboard/projects"
+            link="/app/projects"
             title="Projects"
             emoji="🚀"
             type={SidebarTabTypes.Projects}
@@ -54,7 +54,7 @@ export default function DashboardSidebar() {
             onClick={() => handleSidebarTabClick(SidebarTabTypes.Projects)}
           />
           <DashboardSidebarTab
-            link="/dashboard/tasks"
+            link="/app/tasks"
             title="Tasks"
             emoji="✅"
             type={SidebarTabTypes.Tasks}
@@ -62,7 +62,7 @@ export default function DashboardSidebar() {
             onClick={() => handleSidebarTabClick(SidebarTabTypes.Tasks)}
           />
           <DashboardSidebarTab
-            link="/dashboard/profile"
+            link="/app/profile"
             title="Profile"
             emoji="👤"
             type={SidebarTabTypes.Profile}
