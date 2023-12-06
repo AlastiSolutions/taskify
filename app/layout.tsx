@@ -20,10 +20,7 @@ export default function RootLayout({
       <head>
         <title>Taskify</title>
       </head>
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
