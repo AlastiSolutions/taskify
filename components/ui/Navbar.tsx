@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-neutral-400 text-neutral-800 p-4 md:p-6">
+      <div className="bg-neutral-800 text-neutral-200 p-4 md:p-6">
         <div className="flex items-center justify-between">
           <Link href="/">
             <h1 className="text-2xl md:text-3xl font-semibold">Taskify</h1>
